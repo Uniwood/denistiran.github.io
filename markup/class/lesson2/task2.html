@@ -5,52 +5,74 @@
     <title>Pit Mondarian</title>
     <style type="text/css">
         table { border-collapse: collapse; width: 400px;}
-        td { height: 50px; border: 5px solid #000;}
+        th, td { border: 5px solid #000;}
+        tr {
+            height: 50px;
+        }
     </style>
 </head>
 <body>
 <table>
 
+    <thead>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr>
         <td colspan="2"></td>
         <td colspan="3"></td>
         <td colspan="2" bgcolor="yellow"></td>
-
     </tr>
 
     <tr>
         <td rowspan="2"></td>
-        <td rowspan="4" colspan="4" bgcolor="red">1</td>
-        <td colspan="2" rowspan="2" bgcolor="yellow">1</td>
-    </tr>
-
-   <tr>
-   </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-
+        <td colspan="4" rowspan="4" bgcolor="red"></td>
+        <td colspan="2" rowspan="2" bgcolor="yellow"></td>
     </tr>
 
     <tr>
-        <td></td>
-        <td></td>
-        <td></td
+        <! Пустая строка -->
     </tr>
-
 
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td rowspan="3"></td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
     </tr>
 
+    <tr>
+        <! Пустая строка -->
+    </tr>
+
+    <tr>
+        <td colspan="2" rowspan="2" bgcolor="black"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td rowspan="3" bgcolor="yellow"></td>
+        <td colspan="2"></td>
+        <td colspan="2" rowspan="2" bgcolor="blue"></td>
+    </tr>
+
+    <tr>
+        <td colspan="2" rowspan="2"></td>
+        <td colspan="2" bgcolor="black"></td>
+    </tr>
+
+    <tr>
+        <td colspan="4"></td>
+    </tr>
+    </tbody>
 </table>
 </body>
 </html>
